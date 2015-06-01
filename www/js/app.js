@@ -30,7 +30,6 @@ var app = {
 		//		alert('error');
 		//	}
 		//});
-		jQuery( function( $ ) {
 			$.ajax( {
 				url: 'http://www.uppartner.pt/presentations/ha-bolo/wp-json/posts?type=cake&filter[posts_per_page]=3',
 				success: function ( data ) {
@@ -49,7 +48,6 @@ var app = {
 				},
 				cache: false
 			} );
-		});
 
 	},
 
